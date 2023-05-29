@@ -5,18 +5,184 @@
 
 body {
     font-family: var(--font-family_Monts);
+    text-align: center;
 }
 
 #title {
     background-color: #ff4c68;
 }
 
+.app_name {
+    font-family: var(--font-family_ubuntu);
+
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 1000;
+}
+
+/*=========== navbar ============*/
+.navbar {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.nav-ul {
+    font-size: 1.5rem;
+}
+
+.nav-ul li {
+    margin: 2rem;
+}
+
+/*========== Title ============*/
+#title {
+    text-align: left;
+}
+
 .header__1 {
-    font-family: var(--font-family_Monts_black);
+    color: white;
+    font-size: 5rem;
+    line-height: 1.5;
+}
+
+.row__title {
+    margin: 3rem auto 3rem auto;
+}
+
+.iphone {
+    transform: rotate(25deg);
+    position: absolute;
+    left: 55%;
+}
+
+/* features */
+#features {
+    padding: 2% 0;
+    background-color: white;
+    position: relative;
+
+}
+
+.row__features {
+    margin: 7% 15%;
+}
+
+.icon-feature {
+    font-size: 4rem;
+    padding: 2rem;
+    color: #ef8172;
+}
+
+.icon-feature:hover {
+    color: #ff4c68;
+}
+
+/* ============ Testimonials =========== */
+
+#testimonials {
+    background-color: #ef8172;
+
+}
+
+.testimonial-text {
+    color: white;
+    font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
 }
 
-.container-fluid {
-    padding: 3% 15%;
+.testimonials-image {
+    border-radius: 50%;
+    width: 100px;
+    margin: 2rem;
+}
+
+.testimonial-name {
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*============= press ============*/
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 7rem;
+}
+
+.press-logo {
+    width: 10%;
+}
+
+
+/*============= pricing ============== */
+#pricing {
+    padding: 100px;
+}
+
+.pricing_header {
+    font-size: 4rem;
+    line-height: 2;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 2;
+}
+
+.btn-sign {
+    margin-top: 2.5rem;
+}
+
+.card {
+    height: 100%;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:1000px) {
+    #title {
+        text-align: center;
+    }
+
+    .iphone {
+        width: 60%;
+        margin-top: 5rem;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/*============= footer ==============*/
+
+#cta {
+    background-color: #ff4c68;
+    padding: 4rem 1rem;
+    color: white;
+}
+
+.cta-header {
+    font-size: 5rem;
+    width: 70%;
+    margin: auto;
+    padding: 2rem 0 5rem;
+}
+
+#footer {
+    padding: 3rem 1rem;
 }
